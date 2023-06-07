@@ -417,18 +417,29 @@
   </footer>
   <div data-modal class="window-extra is-hidden">
     <div class="modal-window">
-      <div class="dop-okno-opis">
-        <label class="label"></label>
-        <input class="danie-vvoda" name="your name" type="email" placeholder="E-mail"> 
-        <form class="forma">
-        <p class="opis-tekstu-v-dop-okne">Subscribe</p>
+      <p class="opis-tekstu-v-dop-okne">Subscribe</p>
+      <form class="forma">
+        <label class="label">
+        <input class="subscribe-form-email"
+        type="email"
+        name="user-email"
+        pattern="[a-zA-Z]+"
+        placeholder="E-mail"> 
+        </label>
+        <button type="submit" class="knopka">Subscribe<svg width="24" height="24" class="knopka-svg">
+          <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
+        </svg>
+        </button>
+      </form>
+    </div>
+    
       <button type="button" data-modal-close class="button-window">
         <svg width="8" height="8" class="cross">
           <use href="./images/icons.svg#icon-close-black-18dp-2-1"></use>
         </svg>
       </button>
         </form>
-    </div>
+
     </div>
   </div>
   <script src="./js/modal.js">
