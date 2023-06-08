@@ -17,6 +17,22 @@
 a {text-decoration: none;
 }
 
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	margin: -1px;
+	border: 0;
+	padding: 0;
+	white-space: nowrap;
+	clip-path: inset(100%);
+	clip: rect(0 0 0 0);
+	overflow: hidden;
+}
+
+
+
 .menu-list {font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
@@ -715,7 +731,7 @@ img {display: block;}
 
    /* Коли input у стані checked, для тега span у класі задано стиль border: none; для вимкнення стандартного оформлення кнопки*/
 
-.okno-vibora + .contact-form {background-color:var(--background-vnizu);
+.class-imput:checked + .okno-vibora .contact-form {background-color:var(--background-vnizu);
     border: none;
     fill:#ffffff;}
 
