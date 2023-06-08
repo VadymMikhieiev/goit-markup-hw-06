@@ -712,7 +712,8 @@ img {display: block;}
 
    /* Коли input у стані checked, для тега span у класі задано стиль border: none; для вимкнення стандартного оформлення кнопки*/
 
-.class-imput:checked + label.contact-form {background-color:var(--background-vnizu);
+.button-window,
+.button-window {background-color:var(--background-vnizu);
     border: none;
     fill:#ffffff;}
 
