@@ -8,6 +8,7 @@
     --buton-background-color: #F4F4FD;
     --brands-color: #8e8f99;
     --five-f-color: #FFFFFF;
+    --background-vnizu: #404bbf;
 }
 
 .list {list-style: none;
@@ -698,7 +699,7 @@ img {display: block;}
     letter-spacing: 0.04em;
     color: var(--brands-color);}
 
-.class-span {width: 16px;
+.contact-form {width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
@@ -711,10 +712,11 @@ img {display: block;}
 
    /* Коли input у стані checked, для тега span у класі задано стиль border: none; для вимкнення стандартного оформлення кнопки*/
 
-.class-imput:checked + label.contact-form {border: none;
-    fill:var(--five-f-color);}
+.class-imput:checked + label.contact-form {background-color:var(--background-vnizu);
+    border: none;
+    fill:#ffffff;}
 
-.link-privacy-policy {var(--buton-color);}
+.link-privacy-policy {color:var(--buton-color);}
 
 .button-privacy-policy {display: block;
     min-width: 169px;
