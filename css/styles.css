@@ -604,9 +604,12 @@ img {display: block;}
     padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
-    color: #ffffff;}
+    color: #ffffff;
+    margin-left:80px;}
 
 .subscribe-form-email::placeholder {color: #ffffff;}
+
+
 
 .knopka {min-width: 165px;
     height: 40px;
@@ -712,8 +715,7 @@ img {display: block;}
 
    /* Коли input у стані checked, для тега span у класі задано стиль border: none; для вимкнення стандартного оформлення кнопки*/
 
-.button-window,
-.button-window {background-color:var(--background-vnizu);
+.okno-vibora + .contact-form {background-color:var(--background-vnizu);
     border: none;
     fill:#ffffff;}
 
