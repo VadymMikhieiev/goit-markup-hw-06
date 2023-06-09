@@ -622,7 +622,7 @@ img {display: block;}
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     color: #ffffff;
-    margin-left:80px;}
+    }
 
 .subscribe-form-email::placeholder {color: #ffffff;}
 
@@ -643,7 +643,8 @@ img {display: block;}
     border-radius: 4px;}
 
 .knopka-svg {margin-left: 16px;}
-  
+
+.div-v-konce-footer {margin-left:80px;}
 
 /*проверка модального окна*/
 
