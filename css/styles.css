@@ -755,7 +755,7 @@ img {display: block;}
 
 .class-imput:checked + .okno-vibora .contact-form {background-color:var(--background-vnizu);
     border: none;
-    fill:#F4F4FD;}
+    fill:#ffffff;}
 
 .link-privacy-policy {color:var(--buton-color);}
 
