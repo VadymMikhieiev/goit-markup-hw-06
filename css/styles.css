@@ -88,6 +88,28 @@ body {font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
 
+ /* ПОЛОСКА В Хедере под портфолио */
+
+
+ .current::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    width:48px;
+    background-color: #404BBF;
+    border-radius: 2px;
+    margin: auto;
+}
+
+.menu-link {
+    position: relative;
+    color: #404BBF;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+ 
 .logo-span {font-family: 'Raleway';
     color: var(--light-color);
     font-weight: 800;
@@ -644,7 +666,7 @@ img {display: block;}
 
 .knopka-svg {margin-left: 16px;}
 
-.div-v-konce-footer {margin-left:80px;}
+.div-v-konce-footer {margin-left:auto;}
 
 /*проверка модального окна*/
 
@@ -760,4 +782,6 @@ img {display: block;}
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: 0 auto;}
 
-    .text-exept {margin-left: 8px;}
+.text-exept {margin-left: 8px;}
+
+    
