@@ -746,7 +746,8 @@ img {display: block;}
     border: none;
     fill: #F4F4FD;}
 
-.link-privacy-policy {color:var(--buton-color);}
+.link-privacy-policy {color:var(--buton-color);
+                    text-decoration: underline;}
 
 .button-privacy-policy {display: block;
     min-width: 169px;
